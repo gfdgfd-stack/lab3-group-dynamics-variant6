@@ -24,3 +24,22 @@ dist/
 *.tmp
 *.bak
 ~$*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# Test / type-check caches
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
